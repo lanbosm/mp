@@ -1,0 +1,37 @@
+/* pages/sendPacket/sendPacket.wxss */
+.input-group{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 32rpx;
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-label{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8rpx;
+    margin-left: 6rpx;
+}
+
+.input-text{
+
+    border: 2rpx solid rgba(121, 32, 37, 1);
+    border-radius: 20rpx;
+    background: #ffffff;
+    height: 80rpx;
+    padding-left: 30rpx;
+    color: #692826;
+}
+
+.redpacket{
+  width: 240rpx;
+  height:260rpx;
+  margin-top:20rpx;
+}
+
+.button{
+  margin-top:60rpx;
+}

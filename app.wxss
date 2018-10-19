@@ -1,0 +1,40 @@
+/**app.wxss**/
+page {
+  background-color: #e8bbe9;
+  height: 100%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  
+}
+
+.sss{
+  color: blue;
+}
+.button{
+  border-radius: 50rpx;
+  background-color: #fad433 !important ;
+  width: 624rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#692826 !important ;
+  font-size: 18px;
+  font-weight: bold;
+  border: 4rpx solid #692826;
+  box-shadow: 0px 10rpx 10rpx 0 #fce71d inset,
+  0px -10rpx 10rpx 0 #f9ac1d inset ;
+}
+
+.button-hover{
+  background-color: #f5af13!important ;
+   box-shadow: 0px 8rpx 10rpx 0 #f9d101 inset,
+  0px -8rpx 10rpx 0 #f3720a inset ;
+}
+

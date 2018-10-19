@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/redPacket/redPacket",
+    "pages/category/category",
+    "pages/scroll/scrollview",
+    "pages/logs/logs",
+    "pages/sendPacket/sendPacket"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#a66587",
+    "navigationBarTitleText": "dorodoro",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance":100,
+    "backgroundColor": "#e8bbe9"
+  },
+  "tabBar": {
+   
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/icon/msg.png",
+        "selectedIconPath": "assets/icon/msgHL.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "assets/icon/monney.png",
+        "selectedIconPath": "assets/icon/monneyHL.png",
+        "text": "金钱"
+        
+      }
+    ],
+    "color": "#ffffff",
+    "selectedColor":"#52425c",
+    "backgroundColor": "#a66587",
+    "borderStyle": "black",
+    "position": "bottom"
+  }
+}

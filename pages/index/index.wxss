@@ -1,0 +1,73 @@
+/**index.wxss**/
+.title{
+  color:#692826;
+  font-size: 18px;
+  margin-top: 50rpx;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #692826;
+  padding: 15rpx;
+  position: absolute;
+  border-radius: 15rpx;
+  left:80rpx;
+  top:180rpx;
+}
+
+.userinfo-tips{
+   color:  #fff3cb;
+   height: 64rpx;
+   line-height: 64rpx;
+   font-size: 12px;
+}
+.userinfo-avatar {
+
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  border: solid 1px  #fff3cb;
+}
+
+.userinfo-nickname {
+  color:  #fff3cb;
+  margin-left: 10rpx;
+  font-size: 12px;
+}
+
+.txt{
+  font-size: 12px;
+  color:#692826;
+  position: absolute;
+  top:160rpx;
+  width: 300rpx;
+  right: 80rpx;
+}
+
+.textarea{
+  margin-top: 80px;
+  border: 4px solid #692826;
+  border-radius: 30rpx;
+  background-color: #fff3cb;
+  width: 636rpx;
+  height:380rpx;
+  box-sizing: border-box;
+  padding: 25rpx;
+  padding-top:60rpx;
+  font-size: 16px;
+  color:#692826;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.textarea-tips{
+  font-size: 12px;
+  color:#692826;
+}
+
+
+button {
+  margin-top: 60rpx;
+}

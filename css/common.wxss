@@ -1,0 +1,19 @@
+/** common.wxss **/
+.small-p {
+  font-size: 24px;
+  padding:5px;
+}
+
+.miku{
+  text-shadow: 0px 1px 1px #333333;
+  transition: 3s all;
+}
+
+.miku1{
+  color: red;
+}
+
+.miku2{
+  color:blue;
+  transition: 3s all;
+}

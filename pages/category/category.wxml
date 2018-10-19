@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="class_list" >
+  <view class="class_item" wx:for="{{list}}">
+    item{{item}}
+  </view>
+  <view class="weui-loadmore" wx:if="{{loading}}">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+</view>
+
+

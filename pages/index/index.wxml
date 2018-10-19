@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='title'>
+    <div class="sss" >弹幕发射器o(*￣▽￣*)o</div>
+     <div class="sss">弹幕发射器o(*￣▽￣*)o</div>
+  </view>
+  <view class="userinfo">
+     <block wx:if="{{hasUserInfo}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+     </block>
+     <view wx:else class='userinfo-tips'>请先登录 发弹幕</view>
+  </view>
+  <textarea class='textarea' placeholder='来不及解释 赶紧上墙'placeholder-style='color:#a36664' bindinput="onMessageInputChanged" value="{{message}}"></textarea>
+  <view class='textarea-tips'>弹幕内容请打开 https://wechat.dorodoro-lab.com</view>
+  
+  <button class='button' loading='{{disbled}}' bindtap='onSendWallMessageTap' disabled="{{disbled}}">{{sendMsgButtonTest}}</button>
+   <button class='button' loading='{{disbled}}' bindtap='onSendWallImageTap' disabled="{{disbled}}">{{sendImgButtonTest}}</button>
+
+</view>

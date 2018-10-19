@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="redpacket" src="/assets/images/pic_redpacket.png"></image>
+  <view class="redpacket-balance">
+    <text class="balance-head">余额</text>
+    <text class="balance-body">{{money}}分</text>
+  </view>
+  <button class="button" bindtap="onScanRedPacket">
+    扫一扫抢红包
+  </button>
+  <navigator open-type="navigate" url="/pages/sendPacket/sendPacket">
+      <button class="button">发送屏幕红包</button>
+  </navigator>
+  <button class="button" bindtap="onExtactMoney">
+    红包体现
+  </button>
+
+</view>

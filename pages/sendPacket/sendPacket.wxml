@@ -1,0 +1,17 @@
+<view class="container">
+  <view class='input-group'>
+    <label class='input-label'>红包金额(注:必须大于3分)</label>
+    <input class='input-text' type='digit' placeholder='红包单位 ：元' value='{{price}}' bindinput='onPriceInputChanged'>
+    </input>
+  </view>
+   <view class='input-group'>
+    <label class='input-label'>红包数量</label>
+    <input class='input-text' type='number' placeholder='请填个数' value='{{count}}' bindinput='onCountInputChanged'>
+    </input>
+  </view>
+  <image class="redpacket" src="/assets/images/pic_redpacket.png"></image>
+  <button class="button" bindtap="onSendRedPacketTap">
+     发送红包
+  </button>
+
+</view>

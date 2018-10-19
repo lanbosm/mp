@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+
+  
+
+
+  </view>
+  <view class="usermotto">
+      <view class='miku' style='color:{{miku}};'>{{ msg }}</view>
+    <button bindtap="clickMe">点击我</button>
+     <navigator url="../category/category?title=navigate" 
+     open-type="navigateBack" hover-class="navigator-hover">跳转到新页面    </navigator>  
+  </view>
+
+
+  
+</view>
+
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap" wx:for="{{imgs}}" wx:for-item="item" wx:key="item.mode">
+      <view class="section__title">{{index}}{{item.text}}</view>
+      <view class="section__ctn">
+        <image binderror="sssa" data-index="{{index}}" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
